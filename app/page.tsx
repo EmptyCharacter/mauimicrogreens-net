@@ -29,9 +29,19 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-4">
               Welcome to Kahului Holdings
             </h2>
-            <p className="text-gray-700 text-lg mb-6 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet.
+            <div style={{ borderRadius: "5px", overflow: "hidden" }}>
+              <Image
+                src={
+                  "https://images.unsplash.com/photo-1624241732981-2cb6f13363e9?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                height={800}
+                width={1000}
+                alt="Kahului"
+              />
+            </div>
+
+            <p className="text-4xl text-white mb-6 pt-8 text-center">
+              Driving Success, Together: Explore Kahului Holdings
             </p>
             <a
               href="#"
